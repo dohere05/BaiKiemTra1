@@ -1,0 +1,69 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/229/745/183/world-1920x1200-sea-coast-wallpaper-preview.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.login{
+  max-width: 500px;
+  width: 100%;
+  margin: 60px auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 4px 6px 4px 0 gray;
+}
+.login .nhap{
+  height: 40px;
+  width: 100%;
+}
+.info{
+  display: flex;
+  flex-direction: column;
+  
+  max-width: 500px;
+  width: 100%;
+  
+  gap: 16px;
+}
+.info input{
+  border-radius: 10px;
+  box-shadow: 4px 6px 4px 0 gray;
+}
+.info label{
+  font-weight: bold;
+}
+.checkbox{
+  display: flex;
+  align-items:center ;
+}
+.checkbox > input{
+  margin-right: 8px;
+}
+button{
+  height: 56px;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 4px 6px 4px 0 gray;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+}
+h2{
+  font-family: cursive;
+  font-weight: bold;
+  color: black;
+}
